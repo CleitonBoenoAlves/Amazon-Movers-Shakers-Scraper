@@ -88,6 +88,9 @@ for i in range(len(carrosseis)):
 
     carrosseis = driver.find_elements(By.XPATH, '//div[contains(@id, "anonCarousel")]')
 
+# Fecha o navegador
+driver.quit()
+
 # Pega a data e hora atual
 data_hora = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
