@@ -8,7 +8,6 @@ from selenium.common.exceptions import NoSuchElementException
 from time import sleep
 from datetime import datetime
 import pandas as pd
-import re
 
 # Armazena os dados de cada carrossel
 dados_carrosseis = {}
